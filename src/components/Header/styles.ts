@@ -5,6 +5,7 @@ export const Container = styled('div', {
   alignItems: 'center',
   width: '100vw',
   height: 74,
-  padding: '0 48px',
-  backgroundColor: '$blue'
+  backgroundColor: '$blue',
+  position: 'absolute',
+  top: 0
 });

@@ -6,15 +6,15 @@ export const Container = styled('div', {
   justifyContent: 'center',
   flexDirection: 'column',
   height: '100vh',
-  width: '100vw'
+  width: '100%',
 });
 
 export const TextArea = styled('textarea', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  height: 326,
-  width: 688,
+  height: '30vh',
+  width: '50%',
   padding: 48,
   border: '1px solid $gray100',
   borderRadius: 8,
@@ -27,6 +27,9 @@ export const ContainerActionButtons = styled('div', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  height: 36,
-  width: 588,
+  height: 'auto',
+  width: 'auto',
+  '@bp1': {
+    flexDirection: 'column',
+  }
 });

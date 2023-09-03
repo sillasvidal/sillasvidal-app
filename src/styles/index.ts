@@ -18,5 +18,8 @@ export const {
       gray700: '#6a717e',
       gray800: '#6c7380'
     }
+  },
+  media: {
+    bp1: '(max-width: 640px)'
   }
 });

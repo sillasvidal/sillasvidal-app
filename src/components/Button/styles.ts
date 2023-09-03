@@ -8,7 +8,8 @@ export const Container = styled('div', {
   width: 140,
   borderRadius: 8,
   backgroundColor: '$blue',
-  cursor: 'pointer'
+  cursor: 'pointer',
+  margin: 8
 });
 
 export const ButtonText = styled('p', {
