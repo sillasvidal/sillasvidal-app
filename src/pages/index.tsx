@@ -26,6 +26,7 @@ export default function Home() {
 
   return (
     <Container>
+      <h1>Converter Textos</h1>
       <TextArea value={text} onChange={(event) => setText(event.target.value)} placeholder="Digite ou cole o conteúdo aqui" />
       <ContainerActionButtons>
         <Button onClickFunction={convertToLowerCase}>lower case</Button>
