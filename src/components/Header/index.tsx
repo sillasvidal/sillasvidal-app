@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Header = () => {
   return (
     <Container>
-      <Image src={LogoSvg} alt="" style={{ margin: '0 48px'}} />
+      <Image src={LogoSvg} alt="" height={24} style={{ margin: '0 48px'}} />
     </Container>
   );
 };
