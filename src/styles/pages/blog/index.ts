@@ -1,4 +1,4 @@
-import { styled } from "..";
+import { styled } from "../..";
 
 export const Container = styled('div', {
   display: 'flex',
@@ -20,7 +20,7 @@ export const MenuCard = styled('div', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  width: 150,
+  width: 'auto',
   height: 150,
   backgroundColor: '$blue',
   borderRadius: 8,
@@ -31,4 +31,5 @@ export const TextMenuCard = styled('p', {
   font: 'Roboto',
   fontSize: 24,
   fontWeight: 700,
+  textAlign: 'center'
 });
