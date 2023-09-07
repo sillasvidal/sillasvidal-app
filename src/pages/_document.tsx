@@ -13,6 +13,8 @@ export default function Document() {
         <link rel="shortcut icon" href="favicon.png" />
 
         <style id="stitches" dangerouslySetInnerHTML={{ __html: getCssText()}} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8821615996694557"
+          crossOrigin="anonymous"></script>
       </Head>
       <body>
         <Main />
