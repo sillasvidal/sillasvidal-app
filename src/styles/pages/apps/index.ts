@@ -12,8 +12,8 @@ export const Container = styled('div', {
 export const ContainerMenuCard = styled('div', {
   display: 'flex',
   flexDirection: 'row',
-  justifyContent: 'center',
-  width: 400
+  justifyContent: 'space-between',
+  width: 600
 });
 
 export const MenuCard = styled('div', {

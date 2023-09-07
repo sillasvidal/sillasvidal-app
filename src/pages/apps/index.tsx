@@ -11,6 +11,11 @@ export default function Apps() {
             <TextMenuCard>Conversor de texto</TextMenuCard>
           </MenuCard>
         </Link>
+        <Link style={{ textDecoration: 'none' }} href="/apps/character-counter">
+          <MenuCard>
+            <TextMenuCard>Contador de palavras</TextMenuCard>
+          </MenuCard>
+        </Link>
       </ContainerMenuCard>
     </Container>
   );
