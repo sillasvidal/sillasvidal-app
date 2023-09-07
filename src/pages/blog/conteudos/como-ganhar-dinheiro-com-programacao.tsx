@@ -14,7 +14,7 @@ const ContainerArticle = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   height: '100vh',
-  minWidth: 400,
+  minWidth: 350,
   width: '50vw',
 });
 
